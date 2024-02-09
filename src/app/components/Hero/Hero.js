@@ -21,10 +21,10 @@ export default function Hero({
                         <Image src={Bunga} width={512} height={282}/>
                     </div>
                     <animated.div style={fade}>
-                        <h1 className={"md:text-6xl text-5xl md:mb-0 font-medium text-black leading-relaxed font-curs"}>The
+                        <h1 className={"md:text-6xl text-5xl md:mb-0 font-medium text-black leading-relaxed font-serif"}>The
                             Wedding Of</h1>
                         <h1
-                            className={"md:text-5xl text-4xl font-medium text-black leading-relaxed md:mt-20 font-curs"}>Ngurah
+                            className={"md:text-5xl text-4xl font-medium text-black leading-relaxed md:mt-20 font-serif"}>Ngurah
                             & Laras</h1>
                     </animated.div>
                     <p className={"text-black"}>Kamis, 29 april 2024</p>
@@ -33,7 +33,7 @@ export default function Hero({
                     <br/>
                     <div
                         className={"rounded-xl md:w-[600px] w-[300px] text-center justify-center bg-white mx-auto py-10 boxShadow group"}>
-                        <h1 className={"text-3xl font-medium text-black leading-relaxed font-curs capitalize"}>{guest}</h1>
+                        <h1 className={"text-3xl font-medium text-black leading-relaxed font-serif capitalize"}>{guest}</h1>
                     </div>
                     <br/>
                     <p className={"text-black italic pb-10"}>*Bila ada kesalahan nama/gelar mohon dimaklumi</p>

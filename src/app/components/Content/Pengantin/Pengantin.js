@@ -14,10 +14,8 @@ export default function Pengantin() {
                                 <Image src={pengantin}/>
                             </div>
                         </div>
-                        <h1 className={"md:text-5xl text-4xl font-medium text-black leading-relaxed mt-5 "}>-
-                            Laras
-                            -</h1>
-                        <h1 className={"md:text-4xl text-3xl font-medium text-black leading-relaxed mt-5 font-curs"}>Nama Lengkap</h1>
+                        <h1 className={"md:text-5xl text-4xl font-medium text-black leading-relaxed mt-5 "}>- Laras -</h1>
+                        <h1 className={"md:text-4xl text-3xl font-medium text-black leading-relaxed mt-5 font-serif"}>Nama Lengkap</h1>
                         <br/>
                     </div>
                     <div className={'md:w-6/12 w-full '}>
@@ -27,10 +25,8 @@ export default function Pengantin() {
                             </div>
                         </div>
 
-                        <h1 className={"md:text-5xl text-4xl font-medium text-black leading-relaxed mt-5"}>-
-                            Ngurah
-                            -</h1>
-                        <h1 className={"md:text-4xl text-3xl font-medium text-black leading-relaxed mt-5 font-curs"}>NNama Lengkap</h1>
+                        <h1 className={"md:text-5xl text-4xl font-medium text-black leading-relaxed mt-5"}>- Ngurah -</h1>
+                        <h1 className={"md:text-4xl text-3xl font-medium text-black leading-relaxed mt-5 font-serif"}>NNama Lengkap</h1>
                         <br/>
                     </div>
 
@@ -44,7 +40,7 @@ export default function Pengantin() {
                         <h1 className={"md:text-5xl text-4xl font-medium text-black leading-relaxed mt-5 "}>-
                             Laras
                             -</h1>
-                        <h1 className={"md:text-4xl text-3xl font-medium text-black leading-relaxed font-curs"}>Nama Lengkap</h1>
+                        <h1 className={"md:text-4xl text-3xl font-medium text-black leading-relaxed font-serif"}>Nama Lengkap</h1>
                         <br/>
 
                     </div>
@@ -61,7 +57,7 @@ export default function Pengantin() {
                         <h1 className={"md:text-5xl text-4xl font-medium text-black leading-relaxed mt-5"}>-
                             Ngurah
                             -</h1>
-                        <h1 className={"md:text-4xl text-3xl font-medium text-black leading-relaxed font-curs"}>Nama Lengkap</h1>
+                        <h1 className={"md:text-4xl text-3xl font-medium text-black leading-relaxed font-serif"}>Nama Lengkap</h1>
                         <br/>
                     </div>
                 </div>

@@ -3,7 +3,6 @@ import MaskBottom from '../../assets/mask_bottom.png'
 import Bunga from "../../assets/flower.png";
 import MaskTop from "../../assets/mask.png";
 import Love from '../../assets/love.png'
-import Thanks from '../../assets/thank-you.png'
 import Card from "./Card";
 import axios from "axios";
 import {useEffect, useState} from "react";
@@ -88,7 +87,7 @@ export default function Wish({guest}) {
                     <Image src={Bunga}/>
                 </div>
                 <div className={"flex justify-center items-center content-center"}>
-                    <h1 className={"md:text-6xl text-center  text-5xl md:mb-0 font-medium text-black leading-relaxed font-curs"}>&nbsp;Kirimkan
+                    <h1 className={"md:text-6xl text-center  text-5xl md:mb-0 font-medium text-black leading-relaxed font-serif"}>&nbsp;Kirimkan
                         Ucapan & Doa untuk kami&nbsp;</h1>
                 </div>
                 <div className={"flex justify-center items-center content-center"}>
@@ -101,7 +100,7 @@ export default function Wish({guest}) {
                                placeholder="Nama.."
                                value={guest}
                             // onChange={(e) => getValue('nama', e.target.value)}
-                               className={"text-2xl appearance-none font-mono border-none bg-transparent " +
+                               className={"text-2xl appearance-none font-serif border-none bg-transparent " +
                                "justify-center leading-tight focus:outline-none text-black capitalize mb-2"}/>
                         <label className="block text-gray-700 md:text-lg font-bold mb-2" htmlFor="username">
                             Hubungan
@@ -166,7 +165,7 @@ export default function Wish({guest}) {
                     </div>
                 </div>
                 <div className={"flex justify-center items-center content-center"}>
-                    <h1 className={"md:text-6xl text-center my-5 text-5xl font-medium text-black leading-relaxed font-curs"}>&nbsp;Doa dari kalian</h1>
+                    <h1 className={"md:text-6xl text-center my-5 text-5xl font-medium text-black leading-relaxed font-serif"}>&nbsp;Doa dari kalian</h1>
                 </div>
                 <div className={"flex justify-center items-center content-center"}>
                     <Image src={Love} width={50} height={50}/>

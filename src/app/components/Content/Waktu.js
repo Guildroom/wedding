@@ -2,7 +2,7 @@ import Image from "next/image";
 import MaskBottom from '../../assets/mask_bottom.png'
 import Bunga from "../../assets/flower.png";
 import Ring from '../../assets/ring.png'
-import Wedding from '../../assets/Resepsi.png'
+import Wedding from '../../assets/wedding.png'
 import Timer from "../Timer";
 import MaskTop from "../../assets/mask.png";
 import {useState} from "react";
@@ -61,7 +61,7 @@ export default function Waktu() {
                     </div>
                     <div className="shadow-lg text-center text-black md:w-6/12 md:-ml-12 px-3 mb-6 py-10">
                         <Image src={Wedding} width={100} height={100}/>
-                        <h1 className={"md:text-6xl capitalize text-5xl md:mb-0 font-medium leading-relaxed font-curs"}>Resepsi</h1>
+                        <h1 className={"md:text-6xl capitalize text-5xl md:mb-0 font-medium leading-relaxed font-serif"}>Resepsi</h1>
                         <p className={"font-bold"}>tangall</p>
                         <p className={"font-bold"}>jam</p>
                         <br/>

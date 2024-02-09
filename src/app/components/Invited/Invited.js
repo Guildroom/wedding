@@ -28,7 +28,7 @@ export default function Invited({
                     <div className={"md:py-10 object-left-top"}>
                         <Image src={Bunga} width={512} height={282}/>
                     </div>
-                    <h1 className={"md:text-6xl text-5xl md:mb-0 font-medium text-blackContent leading-relaxed font-curs"}>Hello,
+                    <h1 className={"md:text-6xl text-5xl md:mb-0 font-medium text-blackContent leading-relaxed font-serif"}>Hello,
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         You're Invited</h1>
                     <br/>
@@ -40,7 +40,7 @@ export default function Invited({
                            placeholder="Daftar tamu..."
                            value={tamu}
                            onChange={(e) => validate(e.target.value)}
-                           className={"font-curs text-5xl md:w-[600px] w-[300px] appearance-none border-none bg-white rounded py-3 text-center " +
+                           className={"font-serif text-5xl md:w-[600px] w-[300px] appearance-none border-none bg-white rounded py-3 text-center " +
                            "justify-center leading-tight focus:outline-none text-black capitalize"}/>
                     {valid ?
                         <p className="text-red-500 text-xs italic">Silahkan isi daftar tamu terlebih dahulu.</p>

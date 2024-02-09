@@ -16,7 +16,7 @@ export default function ProtokolKesehatan({}) {
                 <div className={"container mx-auto pt-5"}>
                     <div className={"flex justify-center items-center content-center"}>
                         <Image src={BungaKiri} width={150} height={150}/>
-                        <h1 className={"md:text-6xl text-center  text-5xl md:mb-0 font-medium text-black leading-relaxed font-curs"}>&nbsp;Protokol
+                        <h1 className={"md:text-6xl text-center  text-5xl md:mb-0 font-medium text-black leading-relaxed font-serif"}>&nbsp;Protokol
                             Kesehatan&nbsp;</h1>
                         <Image src={BungaKanan} width={150} height={150}/>
                     </div>
